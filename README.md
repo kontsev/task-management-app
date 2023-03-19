@@ -3,4 +3,4 @@ A virtual diary that allows new users to create their own account, add to their 
 
 Data base: "task_management_db"  
 
-            url: jdbc:postgresql://localhost:5432/task_management_db
+url: jdbc:postgresql://localhost:5432/task_management_db
