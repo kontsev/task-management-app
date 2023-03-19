@@ -1,0 +1,4 @@
+create table tasks(task_id serial primary key, task_name varchar(50) NOT NULL, task_completeness varchar(5) not null,
+                    task_date date not null, task_description varchar(1000), user_login varchar(50));
+create table users(user_id serial primary key, user_name varchar(50) not null, user_surname varchar(50) not null,
+                    user_mail varchar(100) not null, user_login varchar(50) not null, user_password varchar(50) not null);
